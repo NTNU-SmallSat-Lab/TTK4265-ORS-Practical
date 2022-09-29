@@ -1,15 +1,33 @@
-# Conda environment with environment.yml
+# Practical Session using HYPSO-1 for TTK4265
+This repo was created to provide the students of TTK4265 with 
+a programming envirnoment where they can explore data collected by HYPSO-1.
+The notebook `index.ipynb` provides an interactive python notebook where 
+the data can be investigated.
 
-[![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-examples/conda_environment/master?filepath=index.ipynb)
+This is set up as a Binder-compatible repo with an `environment.yml` file.
+Access this Binder by clicking the blue badge above or at the following URL:<br />
+TBD
 
-A Binder-compatible repo with an `environment.yml` file.
+In this specific notebook only one single file from HYPSO-1 is made available.
+The scripts you develop should be able to extend to other data sets from HYPSO-1.
+There are several tasks that requires you to be curios and daring to be able 
+to answer.
 
-Access this Binder by clicking the blue badge above or at the following URL:
+##
 
-http://mybinder.org/v2/gh/binder-examples/conda_environment/master?filepath=index.ipynb
+The notebook `index.ipynb` is intended to provide you as a student of TK4265 an opurtunity to play around with Hyperpsectral data from the HYPSO-1 Satellite.
+You are supposed to look at one specific file form the HYPSO-1 satellite with the identifying name: <br />
+**vancouvergrieg_2022_07_29T18_36_58-hsi0**
+You need to download the `.bip` and upload it to your binder to be able to follow this assignment.
 
+### Conda environment with environment.yml
+To install a virtual envirnoment simply type the following in a terminal where `conda` is installed.
+
+```
+conda env create -f environment.yml
+```
 ## Notes
-The `environment.yml` file should list all Python libraries on which your notebooks
+The `environment.yml` file lists all Python libraries on which these project notebook(s)
 depend, specified as though they were created using the following `conda` commands:
 
 ```

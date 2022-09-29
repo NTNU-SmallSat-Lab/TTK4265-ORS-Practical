@@ -1,7 +1,8 @@
-name: example-environment
+name: ttk4265
 channels:
   - conda-forge
 dependencies:
+  - python=3.8
   - numpy
   - psutil
   - toolz
@@ -11,3 +12,8 @@ dependencies:
   - partd
   - bokeh
   - dask
+  - spectral
+  - scipy
+  - jupyter
+  - scikit-learn
+  - scikit-image
