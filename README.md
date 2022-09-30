@@ -7,7 +7,7 @@ the data can be investigated.
 This is set up as a Binder-compatible repo with an `environment.yml` file.
 Access this Binder by clicking the blue badge above or at the following URL:<br />
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sivertba/TTK4265-ORS-Practical/master?labpath=index.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NTNU-SmallSat-Lab/TTK4265-ORS-Practical/master?labpath=index.ipynb)
 
 In this specific notebook only one single file from HYPSO-1 is made available.
 The scripts you develop should be able to extend to other data sets from HYPSO-1.
